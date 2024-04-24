@@ -28,7 +28,7 @@ public class BookMain {
       bm.b.add(new Book(4, "Book4", "Author4", 25.0f));
       bm.b.add(new Book(5, "Book5", "Author5", 30.0f));
   	Scanner sc=new Scanner(System.in);
-	System.out.println("======= Welcome To Library Management System ======")
+	System.out.println("======= Welcome To Library Management System ======");
 		while(true) {
 			System.out.println(" To Add Book Details Please Enter 1"+"\n"+"To Display the books in the Library Please Enter 2\n"+"To Search a book by its name please enter 3\n"+"To Search a book by its ID please enter 4\n"+"To lend a book Please Enter 5\n"+"To display previously lent books Please Enter 6\n"+"Enter any other number To exit the System"+"\n");
 			System.out.println("Please Enter Your Choice");

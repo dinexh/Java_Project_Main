@@ -32,7 +32,7 @@ public class LibraryFrame implements ActionListener {
          Color babyGreen = new Color(150, 200, 173);
         s.getContentPane().setBackground(babyGreen);
         s.setLayout(null);
-        l0= new JLabel("Welcome to the Library Management System");
+//        l0= new JLabel("Welcome to the Library Management System");
 //        set.foreground(0000);
         l0.setBounds(500,20,200,10);
         l1 = new JLabel("NAME");
